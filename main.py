@@ -1,4 +1,5 @@
 from turtle import *
+from sierpinski_triangle import *
 
 
 # generates a tree from the starting point with the given size, angle and going the given number of levels deep
@@ -97,8 +98,8 @@ def exec_koch_snowflake():
     koch_snowflake(200, sides, n)
 
 
-shape("classic")
-speed(0)
+# shape("classic")
+# speed(0)
 
 # Uncomment one of the following lines to display different shapes
 
@@ -106,11 +107,11 @@ speed(0)
 # exec_one_tree()
 # exec_spiral_inner()
 # exec_spiral_outer()
-exec_koch_snowflake()
-
-
+# exec_koch_snowflake()
 
 # turtle.reset()
 
+# mainloop()
 
-mainloop()
+n = int(input("Give number:\n"))
+generate_sierpinski_triangle(n)
