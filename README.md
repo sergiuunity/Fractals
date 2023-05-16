@@ -1,6 +1,6 @@
 # Fractals
 
-Some visualization of different fractals using Turtle from Python.
+Some visualization of different fractals using Turtle & Matplotlib from Python.
 
 ![Screenshot](https://github.com/sergiuunity/Fractals/blob/8b85d959a76fd4afaabdd5b95ae0c5fa1aee5f7d/Images/sierpinski.png)
 
