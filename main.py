@@ -23,17 +23,17 @@ def tree(size, angle, level):
 
 # reads the needed data and generates a tree with that information
 def exec_one_tree():
-    n = int(input("Enter the number of levels:\n"))
+    levels = int(input("Enter the number of levels:\n"))
     left(90)
-    tree(200, 30, n)
+    tree(200, 30, levels)
 
 
 # reads the needed data and generates with that information multiple trees that form a flower pattern
 def exec_multiple_trees_flower():
-    n = int(input("Enter the number of levels:\n"))
+    levels = int(input("Enter the number of levels:\n"))
     for i in range(8):
         left(45)
-        tree(100, 30, n)
+        tree(100, 30, levels)
 
 
 # generates a spiral going from the outside to the inside with the given amount of sides and the given number of levels
@@ -48,8 +48,8 @@ def spiral_inner(size, sides, level):
 # reads the needed data and generates an inner spiral with that information
 def exec_spiral_inner():
     sides = int(input("Enter the number of sides:\n"))
-    n = int(input("Enter the number of levels:\n"))
-    spiral_inner(30, sides, n)
+    levels = int(input("Enter the number of levels:\n"))
+    spiral_inner(30, sides, levels)
 
 
 # generates a spiral going from the outside to the inside with the given amount of sides and the given number of levels
@@ -93,9 +93,8 @@ def koch_snowflake_side(size, sides, level):
 # reads the needed data and generates a koch snowflake with that information
 def exec_koch_snowflake():
     sides = int(input("Enter the number of sides:\n"))
-    n = int(input("Enter the number of levels:\n"))
-    # left(180 / sides)
-    koch_snowflake(200, sides, n)
+    levels = int(input("Enter the number of levels:\n"))
+    koch_snowflake(200, sides, levels)
 
 
 # shape("classic")
