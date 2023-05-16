@@ -2,7 +2,7 @@
 
 Some visualization of different fractals using Turtle from Python.
 
-![Screenshot](https://github.com/sergiuunity/Fractals/blob/54f597f92163071d82062190d86d80116a54e443/Images/sierpinski.png)
+![Screenshot](https://github.com/sergiuunity/Fractals/blob/8b85d959a76fd4afaabdd5b95ae0c5fa1aee5f7d/Images/sierpinski.png)
 
 ![Screenshot](https://github.com/sergiuunity/Fractals/blob/54f597f92163071d82062190d86d80116a54e443/Images/flower%20pattern.png)
 
